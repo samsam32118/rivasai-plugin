@@ -1,0 +1,6670 @@
+{
+ "units": "cm",
+ "orientation": "x east, y south, plan up is north",
+ "entries": [
+  {
+   "id": "sofa-3-seat",
+   "name": "3-seat sofa",
+   "category": "living",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 220,
+    "d": 95,
+    "h": 85
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "sofa-2-seat",
+   "name": "Loveseat",
+   "category": "living",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 160,
+    "d": 90,
+    "h": 85
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "sofa-corner",
+   "name": "Corner sofa",
+   "category": "living",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 260,
+    "d": 200,
+    "h": 85
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "armchair",
+   "name": "Armchair",
+   "category": "living",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 85,
+    "d": 85,
+    "h": 90
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "coffee-table",
+   "name": "Coffee table",
+   "category": "living",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 120,
+    "d": 60,
+    "h": 42
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "coffee-table-round",
+   "name": "Round coffee table",
+   "category": "living",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 90,
+    "d": 90,
+    "h": 42
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "side-table",
+   "name": "Side table",
+   "category": "living",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 50,
+    "d": 50,
+    "h": 55
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "tv-stand",
+   "name": "TV stand",
+   "category": "living",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 180,
+    "d": 45,
+    "h": 50
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "tv",
+   "name": "Flat TV",
+   "category": "living",
+   "kind": "item",
+   "mount": "surface",
+   "dims": {
+    "w": 145,
+    "d": 8,
+    "h": 85
+   },
+   "elevation": 50,
+   "hasFront": true
+  },
+  {
+   "id": "bookshelf",
+   "name": "Bookshelf",
+   "category": "living",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 90,
+    "d": 35,
+    "h": 200
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "ottoman",
+   "name": "Ottoman",
+   "category": "living",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 60,
+    "d": 60,
+    "h": 42
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "fireplace",
+   "name": "Fireplace",
+   "category": "living",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 150,
+    "d": 45,
+    "h": 110
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "rug-rect",
+   "name": "Rectangular rug",
+   "category": "living",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 240,
+    "d": 170,
+    "h": 1
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "rug-round",
+   "name": "Round rug",
+   "category": "living",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 200,
+    "d": 200,
+    "h": 1
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "bed-double",
+   "name": "Double bed",
+   "category": "bedroom",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 160,
+    "d": 210,
+    "h": 95
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "bed-king",
+   "name": "King bed",
+   "category": "bedroom",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 200,
+    "d": 215,
+    "h": 100
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "bed-single",
+   "name": "Single bed",
+   "category": "bedroom",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 100,
+    "d": 205,
+    "h": 90
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "nightstand",
+   "name": "Nightstand",
+   "category": "bedroom",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 50,
+    "d": 40,
+    "h": 55
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "wardrobe",
+   "name": "Wardrobe",
+   "category": "bedroom",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 150,
+    "d": 60,
+    "h": 210
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "dresser",
+   "name": "Dresser",
+   "category": "bedroom",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 120,
+    "d": 50,
+    "h": 85
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "vanity-table",
+   "name": "Vanity table",
+   "category": "bedroom",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 100,
+    "d": 45,
+    "h": 76
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "mirror-floor",
+   "name": "Floor mirror",
+   "category": "bedroom",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 60,
+    "d": 5,
+    "h": 170
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "bench-bed",
+   "name": "Bed bench",
+   "category": "bedroom",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 140,
+    "d": 40,
+    "h": 45
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "kitchen-base-cabinet",
+   "name": "Base cabinet",
+   "category": "kitchen",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 60,
+    "d": 60,
+    "h": 90
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "kitchen-wall-cabinet",
+   "name": "Wall cabinet",
+   "category": "kitchen",
+   "kind": "item",
+   "mount": "wall",
+   "dims": {
+    "w": 60,
+    "d": 35,
+    "h": 70
+   },
+   "elevation": 145,
+   "hasFront": true
+  },
+  {
+   "id": "kitchen-sink-cabinet",
+   "name": "Sink cabinet",
+   "category": "kitchen",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 80,
+    "d": 60,
+    "h": 90
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "kitchen-island",
+   "name": "Kitchen island",
+   "category": "kitchen",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 180,
+    "d": 90,
+    "h": 92
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "fridge",
+   "name": "Refrigerator",
+   "category": "kitchen",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 70,
+    "d": 70,
+    "h": 185
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "stove",
+   "name": "Range cooker",
+   "category": "kitchen",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 60,
+    "d": 60,
+    "h": 90
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "dishwasher",
+   "name": "Dishwasher",
+   "category": "kitchen",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 60,
+    "d": 60,
+    "h": 85
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "range-hood",
+   "name": "Range hood",
+   "category": "kitchen",
+   "kind": "item",
+   "mount": "wall",
+   "dims": {
+    "w": 60,
+    "d": 50,
+    "h": 40
+   },
+   "elevation": 160,
+   "hasFront": true
+  },
+  {
+   "id": "microwave",
+   "name": "Microwave",
+   "category": "kitchen",
+   "kind": "item",
+   "mount": "surface",
+   "dims": {
+    "w": 50,
+    "d": 38,
+    "h": 30
+   },
+   "elevation": 90,
+   "hasFront": true
+  },
+  {
+   "id": "bar-stool",
+   "name": "Bar stool",
+   "category": "kitchen",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 40,
+    "d": 40,
+    "h": 75
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "bathtub",
+   "name": "Bathtub",
+   "category": "bathroom",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 170,
+    "d": 75,
+    "h": 58
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "shower",
+   "name": "Shower cabin",
+   "category": "bathroom",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 90,
+    "d": 90,
+    "h": 210
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "toilet",
+   "name": "Toilet",
+   "category": "bathroom",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 38,
+    "d": 65,
+    "h": 78
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "bathroom-sink",
+   "name": "Bathroom sink",
+   "category": "bathroom",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 60,
+    "d": 45,
+    "h": 85
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "double-vanity",
+   "name": "Double vanity",
+   "category": "bathroom",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 140,
+    "d": 50,
+    "h": 85
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "towel-rack",
+   "name": "Towel radiator",
+   "category": "bathroom",
+   "kind": "item",
+   "mount": "wall",
+   "dims": {
+    "w": 50,
+    "d": 8,
+    "h": 110
+   },
+   "elevation": 40,
+   "hasFront": true
+  },
+  {
+   "id": "washing-machine",
+   "name": "Washing machine",
+   "category": "bathroom",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 60,
+    "d": 60,
+    "h": 85
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "bath-mirror",
+   "name": "Bathroom mirror",
+   "category": "bathroom",
+   "kind": "item",
+   "mount": "wall",
+   "dims": {
+    "w": 60,
+    "d": 3,
+    "h": 80
+   },
+   "elevation": 110,
+   "hasFront": true
+  },
+  {
+   "id": "dining-table",
+   "name": "Dining table",
+   "category": "dining",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 180,
+    "d": 90,
+    "h": 75
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "dining-table-round",
+   "name": "Round dining table",
+   "category": "dining",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 120,
+    "d": 120,
+    "h": 75
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "dining-chair",
+   "name": "Dining chair",
+   "category": "dining",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 45,
+    "d": 50,
+    "h": 90
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "bench",
+   "name": "Dining bench",
+   "category": "dining",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 150,
+    "d": 40,
+    "h": 45
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "sideboard",
+   "name": "Sideboard",
+   "category": "dining",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 160,
+    "d": 45,
+    "h": 80
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "china-cabinet",
+   "name": "Display cabinet",
+   "category": "dining",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 100,
+    "d": 40,
+    "h": 190
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "desk",
+   "name": "Desk",
+   "category": "office",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 140,
+    "d": 70,
+    "h": 75
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "desk-l",
+   "name": "Corner desk",
+   "category": "office",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 160,
+    "d": 140,
+    "h": 75
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "office-chair",
+   "name": "Office chair",
+   "category": "office",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 60,
+    "d": 60,
+    "h": 105
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "filing-cabinet",
+   "name": "Filing cabinet",
+   "category": "office",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 45,
+    "d": 60,
+    "h": 100
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "office-shelf",
+   "name": "Office shelving",
+   "category": "office",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 80,
+    "d": 40,
+    "h": 180
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "computer",
+   "name": "Computer monitor",
+   "category": "office",
+   "kind": "item",
+   "mount": "surface",
+   "dims": {
+    "w": 60,
+    "d": 20,
+    "h": 45
+   },
+   "elevation": 75,
+   "hasFront": true
+  },
+  {
+   "id": "printer",
+   "name": "Printer",
+   "category": "office",
+   "kind": "item",
+   "mount": "surface",
+   "dims": {
+    "w": 45,
+    "d": 40,
+    "h": 25
+   },
+   "elevation": 75,
+   "hasFront": true
+  },
+  {
+   "id": "bunk-bed",
+   "name": "Bunk bed",
+   "category": "kids",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 100,
+    "d": 205,
+    "h": 160
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "crib",
+   "name": "Crib",
+   "category": "kids",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 70,
+    "d": 130,
+    "h": 95
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "toy-chest",
+   "name": "Toy chest",
+   "category": "kids",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 80,
+    "d": 45,
+    "h": 50
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "kids-table",
+   "name": "Kids table",
+   "category": "kids",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 80,
+    "d": 60,
+    "h": 50
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "kids-chair",
+   "name": "Kids chair",
+   "category": "kids",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 32,
+    "d": 32,
+    "h": 55
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "changing-table",
+   "name": "Changing table",
+   "category": "kids",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 90,
+    "d": 55,
+    "h": 95
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "play-mat",
+   "name": "Play mat",
+   "category": "kids",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 150,
+    "d": 150,
+    "h": 2
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "patio-table",
+   "name": "Patio table",
+   "category": "outdoor",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 150,
+    "d": 90,
+    "h": 74
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "patio-chair",
+   "name": "Patio chair",
+   "category": "outdoor",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 55,
+    "d": 55,
+    "h": 85
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "sun-lounger",
+   "name": "Sun lounger",
+   "category": "outdoor",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 70,
+    "d": 195,
+    "h": 40
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "bbq-grill",
+   "name": "BBQ grill",
+   "category": "exterior",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 120,
+    "d": 60,
+    "h": 110
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "planter",
+   "name": "Planter box",
+   "category": "landscape",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 100,
+    "d": 40,
+    "h": 45
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "tree",
+   "name": "Tree",
+   "category": "landscape",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 250,
+    "d": 250,
+    "h": 450
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "garden-bench",
+   "name": "Garden bench",
+   "category": "outdoor",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 150,
+    "d": 60,
+    "h": 85
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "parasol",
+   "name": "Parasol",
+   "category": "outdoor",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 250,
+    "d": 250,
+    "h": 240
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "floor-lamp",
+   "name": "Floor lamp",
+   "category": "lighting",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 40,
+    "d": 40,
+    "h": 165
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "table-lamp",
+   "name": "Table lamp",
+   "category": "lighting",
+   "kind": "item",
+   "mount": "surface",
+   "dims": {
+    "w": 30,
+    "d": 30,
+    "h": 50
+   },
+   "elevation": 55,
+   "hasFront": true
+  },
+  {
+   "id": "pendant-light",
+   "name": "Pendant light",
+   "category": "lighting",
+   "kind": "item",
+   "mount": "ceiling",
+   "dims": {
+    "w": 40,
+    "d": 40,
+    "h": 60
+   },
+   "elevation": 200,
+   "hasFront": false
+  },
+  {
+   "id": "ceiling-light",
+   "name": "Ceiling light",
+   "category": "lighting",
+   "kind": "item",
+   "mount": "ceiling",
+   "dims": {
+    "w": 45,
+    "d": 45,
+    "h": 12
+   },
+   "elevation": 268,
+   "hasFront": false
+  },
+  {
+   "id": "chandelier",
+   "name": "Chandelier",
+   "category": "lighting",
+   "kind": "item",
+   "mount": "ceiling",
+   "dims": {
+    "w": 70,
+    "d": 70,
+    "h": 70
+   },
+   "elevation": 200,
+   "hasFront": false
+  },
+  {
+   "id": "wall-sconce",
+   "name": "Wall sconce",
+   "category": "lighting",
+   "kind": "item",
+   "mount": "wall",
+   "dims": {
+    "w": 20,
+    "d": 15,
+    "h": 30
+   },
+   "elevation": 170,
+   "hasFront": true
+  },
+  {
+   "id": "desk-lamp",
+   "name": "Desk lamp",
+   "category": "lighting",
+   "kind": "item",
+   "mount": "surface",
+   "dims": {
+    "w": 20,
+    "d": 20,
+    "h": 45
+   },
+   "elevation": 75,
+   "hasFront": true
+  },
+  {
+   "id": "plant-pot",
+   "name": "Potted plant",
+   "category": "decor",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 45,
+    "d": 45,
+    "h": 120
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "plant-small",
+   "name": "Small plant",
+   "category": "decor",
+   "kind": "item",
+   "mount": "surface",
+   "dims": {
+    "w": 20,
+    "d": 20,
+    "h": 35
+   },
+   "elevation": 75,
+   "hasFront": false
+  },
+  {
+   "id": "wall-art",
+   "name": "Framed picture",
+   "category": "decor",
+   "kind": "item",
+   "mount": "wall",
+   "dims": {
+    "w": 80,
+    "d": 3,
+    "h": 60
+   },
+   "elevation": 140,
+   "hasFront": true
+  },
+  {
+   "id": "wall-mirror",
+   "name": "Wall mirror",
+   "category": "decor",
+   "kind": "item",
+   "mount": "wall",
+   "dims": {
+    "w": 70,
+    "d": 3,
+    "h": 100
+   },
+   "elevation": 110,
+   "hasFront": true
+  },
+  {
+   "id": "vase",
+   "name": "Vase",
+   "category": "decor",
+   "kind": "item",
+   "mount": "surface",
+   "dims": {
+    "w": 20,
+    "d": 20,
+    "h": 40
+   },
+   "elevation": 75,
+   "hasFront": false
+  },
+  {
+   "id": "clock",
+   "name": "Wall clock",
+   "category": "decor",
+   "kind": "item",
+   "mount": "wall",
+   "dims": {
+    "w": 35,
+    "d": 5,
+    "h": 35
+   },
+   "elevation": 180,
+   "hasFront": true
+  },
+  {
+   "id": "curtains",
+   "name": "Curtains",
+   "category": "decor",
+   "kind": "item",
+   "mount": "wall",
+   "dims": {
+    "w": 160,
+    "d": 12,
+    "h": 250
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "radiator",
+   "name": "Radiator",
+   "category": "decor",
+   "kind": "item",
+   "mount": "wall",
+   "dims": {
+    "w": 100,
+    "d": 10,
+    "h": 60
+   },
+   "elevation": 15,
+   "hasFront": true
+  },
+  {
+   "id": "shelf-wall",
+   "name": "Wall shelf",
+   "category": "decor",
+   "kind": "item",
+   "mount": "wall",
+   "dims": {
+    "w": 80,
+    "d": 22,
+    "h": 4
+   },
+   "elevation": 150,
+   "hasFront": true
+  },
+  {
+   "id": "coat-rack",
+   "name": "Coat rack",
+   "category": "decor",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 50,
+    "d": 50,
+    "h": 180
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "shoe-cabinet",
+   "name": "Shoe cabinet",
+   "category": "decor",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 90,
+    "d": 35,
+    "h": 100
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "piano",
+   "name": "Upright piano",
+   "category": "decor",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 150,
+    "d": 60,
+    "h": 125
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "stairs-straight",
+   "name": "Straight staircase",
+   "category": "decor",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 100,
+    "d": 300,
+    "h": 280
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "stairs-l",
+   "name": "L-shaped staircase",
+   "category": "decor",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 200,
+    "d": 200,
+    "h": 280
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "door-single",
+   "name": "Interior door",
+   "category": "doors",
+   "kind": "door",
+   "mount": "opening",
+   "dims": {
+    "w": 90,
+    "d": 10,
+    "h": 210
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "door-double",
+   "name": "Double door",
+   "category": "doors",
+   "kind": "door",
+   "mount": "opening",
+   "dims": {
+    "w": 160,
+    "d": 10,
+    "h": 210
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "door-sliding",
+   "name": "Sliding door",
+   "category": "doors",
+   "kind": "door",
+   "mount": "opening",
+   "dims": {
+    "w": 180,
+    "d": 10,
+    "h": 210
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "door-pocket",
+   "name": "Pocket door",
+   "category": "doors",
+   "kind": "door",
+   "mount": "opening",
+   "dims": {
+    "w": 80,
+    "d": 10,
+    "h": 210
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "door-front",
+   "name": "Front door",
+   "category": "doors",
+   "kind": "door",
+   "mount": "opening",
+   "dims": {
+    "w": 100,
+    "d": 10,
+    "h": 220
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "door-garage",
+   "name": "Garage door",
+   "category": "doors",
+   "kind": "door",
+   "mount": "opening",
+   "dims": {
+    "w": 250,
+    "d": 10,
+    "h": 220
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "opening-plain",
+   "name": "Wall opening",
+   "category": "doors",
+   "kind": "opening",
+   "mount": "opening",
+   "dims": {
+    "w": 100,
+    "d": 10,
+    "h": 210
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "opening-arch",
+   "name": "Arched opening",
+   "category": "doors",
+   "kind": "opening",
+   "mount": "opening",
+   "dims": {
+    "w": 100,
+    "d": 10,
+    "h": 220
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "window-standard",
+   "name": "Casement window",
+   "category": "windows",
+   "kind": "window",
+   "mount": "opening",
+   "dims": {
+    "w": 120,
+    "d": 10,
+    "h": 120
+   },
+   "elevation": 90,
+   "hasFront": false
+  },
+  {
+   "id": "window-double",
+   "name": "Double window",
+   "category": "windows",
+   "kind": "window",
+   "mount": "opening",
+   "dims": {
+    "w": 180,
+    "d": 10,
+    "h": 140
+   },
+   "elevation": 80,
+   "hasFront": false
+  },
+  {
+   "id": "window-sliding",
+   "name": "Sliding window",
+   "category": "windows",
+   "kind": "window",
+   "mount": "opening",
+   "dims": {
+    "w": 150,
+    "d": 10,
+    "h": 120
+   },
+   "elevation": 90,
+   "hasFront": false
+  },
+  {
+   "id": "window-picture",
+   "name": "Picture window",
+   "category": "windows",
+   "kind": "window",
+   "mount": "opening",
+   "dims": {
+    "w": 200,
+    "d": 10,
+    "h": 160
+   },
+   "elevation": 60,
+   "hasFront": false
+  },
+  {
+   "id": "window-small",
+   "name": "Small window",
+   "category": "windows",
+   "kind": "window",
+   "mount": "opening",
+   "dims": {
+    "w": 60,
+    "d": 10,
+    "h": 60
+   },
+   "elevation": 140,
+   "hasFront": false
+  },
+  {
+   "id": "window-tall",
+   "name": "French window",
+   "category": "windows",
+   "kind": "window",
+   "mount": "opening",
+   "dims": {
+    "w": 120,
+    "d": 10,
+    "h": 230
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "stairs-spiral",
+   "name": "Spiral staircase",
+   "category": "decor",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 160,
+    "d": 160,
+    "h": 280
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "column-square",
+   "name": "Square column",
+   "category": "decor",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 30,
+    "d": 30,
+    "h": 280
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "column-round",
+   "name": "Round column",
+   "category": "decor",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 30,
+    "d": 30,
+    "h": 280
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "sofa-sectional-chaise",
+   "name": "Sectional sofa with chaise",
+   "category": "living",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 280,
+    "d": 165,
+    "h": 85
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "recliner",
+   "name": "Recliner",
+   "category": "living",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 90,
+    "d": 95,
+    "h": 102
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "ottoman-tufted",
+   "name": "Tufted storage ottoman",
+   "category": "living",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 110,
+    "d": 55,
+    "h": 45
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "bookcase-cube",
+   "name": "Cube bookcase",
+   "category": "living",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 150,
+    "d": 38,
+    "h": 150
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "media-wall-unit",
+   "name": "Media wall unit",
+   "category": "living",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 280,
+    "d": 45,
+    "h": 200
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "wood-stove",
+   "name": "Wood-burning stove",
+   "category": "living",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 65,
+    "d": 55,
+    "h": 230
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "grand-piano",
+   "name": "Grand piano",
+   "category": "living",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 150,
+    "d": 200,
+    "h": 100
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "floor-cushion",
+   "name": "Floor cushion",
+   "category": "living",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 70,
+    "d": 70,
+    "h": 18
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "console-table",
+   "name": "Console table",
+   "category": "living",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 120,
+    "d": 35,
+    "h": 78
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "canopy-bed",
+   "name": "Canopy bed",
+   "category": "bedroom",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 180,
+    "d": 220,
+    "h": 210
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "loft-bed",
+   "name": "Loft bed with desk",
+   "category": "bedroom",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 105,
+    "d": 205,
+    "h": 185
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "wardrobe-sliding",
+   "name": "Sliding-door wardrobe",
+   "category": "bedroom",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 200,
+    "d": 65,
+    "h": 220
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "dressing-table",
+   "name": "Dressing table with lit mirror",
+   "category": "bedroom",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 110,
+    "d": 45,
+    "h": 150
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "chest-of-drawers",
+   "name": "Chest of drawers",
+   "category": "bedroom",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 80,
+    "d": 45,
+    "h": 120
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "kitchen-island-stools",
+   "name": "Kitchen island with stools",
+   "category": "kitchen",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 200,
+    "d": 150,
+    "h": 92
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "range-hood-island",
+   "name": "Island range hood",
+   "category": "kitchen",
+   "kind": "item",
+   "mount": "ceiling",
+   "dims": {
+    "w": 90,
+    "d": 60,
+    "h": 100
+   },
+   "elevation": 180,
+   "hasFront": true
+  },
+  {
+   "id": "fridge-french-door",
+   "name": "French-door refrigerator",
+   "category": "kitchen",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 90,
+    "d": 75,
+    "h": 180
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "wine-fridge",
+   "name": "Wine cooler",
+   "category": "kitchen",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 60,
+    "d": 58,
+    "h": 85
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "oven-tower",
+   "name": "Oven tower",
+   "category": "kitchen",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 60,
+    "d": 60,
+    "h": 215
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "kitchen-shelf",
+   "name": "Open kitchen shelf",
+   "category": "kitchen",
+   "kind": "item",
+   "mount": "wall",
+   "dims": {
+    "w": 100,
+    "d": 25,
+    "h": 60
+   },
+   "elevation": 145,
+   "hasFront": true
+  },
+  {
+   "id": "pantry-cabinet",
+   "name": "Pantry cabinet",
+   "category": "kitchen",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 60,
+    "d": 60,
+    "h": 215
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "coffee-machine",
+   "name": "Espresso machine",
+   "category": "kitchen",
+   "kind": "item",
+   "mount": "surface",
+   "dims": {
+    "w": 32,
+    "d": 40,
+    "h": 38
+   },
+   "elevation": 90,
+   "hasFront": true
+  },
+  {
+   "id": "bathtub-freestanding",
+   "name": "Freestanding bathtub",
+   "category": "bathroom",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 170,
+    "d": 80,
+    "h": 62
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "shower-walk-in",
+   "name": "Walk-in shower",
+   "category": "bathroom",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 140,
+    "d": 90,
+    "h": 205
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "bidet",
+   "name": "Bidet",
+   "category": "bathroom",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 38,
+    "d": 55,
+    "h": 40
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "washer-dryer-stack",
+   "name": "Washer & dryer stack",
+   "category": "bathroom",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 60,
+    "d": 65,
+    "h": 175
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "vanity-vessel",
+   "name": "Floating vanity with vessel sink",
+   "category": "bathroom",
+   "kind": "item",
+   "mount": "wall",
+   "dims": {
+    "w": 100,
+    "d": 48,
+    "h": 70
+   },
+   "elevation": 45,
+   "hasFront": true
+  },
+  {
+   "id": "towel-ladder",
+   "name": "Towel ladder",
+   "category": "bathroom",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 50,
+    "d": 35,
+    "h": 165
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "laundry-hamper",
+   "name": "Laundry hamper",
+   "category": "bathroom",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 45,
+    "d": 35,
+    "h": 62
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "bar-cart",
+   "name": "Bar cart",
+   "category": "dining",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 80,
+    "d": 45,
+    "h": 85
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "buffet-hutch",
+   "name": "Buffet with hutch",
+   "category": "dining",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 150,
+    "d": 45,
+    "h": 200
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "dining-table-extendable",
+   "name": "Extendable dining table",
+   "category": "dining",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 200,
+    "d": 95,
+    "h": 76
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "banquette",
+   "name": "Upholstered banquette",
+   "category": "dining",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 160,
+    "d": 60,
+    "h": 95
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "desk-executive",
+   "name": "Executive desk",
+   "category": "office",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 180,
+    "d": 85,
+    "h": 76
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "ergonomic-chair",
+   "name": "Ergonomic chair",
+   "category": "office",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 68,
+    "d": 66,
+    "h": 122
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "filing-cabinet-lateral",
+   "name": "Lateral filing cabinet",
+   "category": "office",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 90,
+    "d": 50,
+    "h": 105
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "bookshelf-ladder",
+   "name": "Ladder bookshelf",
+   "category": "office",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 70,
+    "d": 45,
+    "h": 180
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "standing-desk",
+   "name": "Standing desk",
+   "category": "office",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 150,
+    "d": 75,
+    "h": 115
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "printer-mfp",
+   "name": "Office copier",
+   "category": "office",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 60,
+    "d": 62,
+    "h": 115
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "toy-storage-bins",
+   "name": "Toy storage with bins",
+   "category": "kids",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 90,
+    "d": 32,
+    "h": 80
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "play-tent",
+   "name": "Play teepee",
+   "category": "kids",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 120,
+    "d": 120,
+    "h": 165
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "kids-table-set",
+   "name": "Kids table & chairs",
+   "category": "kids",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 120,
+    "d": 100,
+    "h": 58
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "rocking-horse",
+   "name": "Rocking horse",
+   "category": "kids",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 90,
+    "d": 32,
+    "h": 72
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "cradle",
+   "name": "Rocking cradle",
+   "category": "kids",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 95,
+    "d": 55,
+    "h": 85
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "chandelier-sputnik",
+   "name": "Sputnik chandelier",
+   "category": "lighting",
+   "kind": "item",
+   "mount": "ceiling",
+   "dims": {
+    "w": 90,
+    "d": 90,
+    "h": 80
+   },
+   "elevation": 200,
+   "hasFront": false
+  },
+  {
+   "id": "track-light",
+   "name": "Track lighting",
+   "category": "lighting",
+   "kind": "item",
+   "mount": "ceiling",
+   "dims": {
+    "w": 150,
+    "d": 14,
+    "h": 22
+   },
+   "elevation": 258,
+   "hasFront": false
+  },
+  {
+   "id": "wall-sconce-swing",
+   "name": "Swing-arm wall lamp",
+   "category": "lighting",
+   "kind": "item",
+   "mount": "wall",
+   "dims": {
+    "w": 22,
+    "d": 55,
+    "h": 42
+   },
+   "elevation": 110,
+   "hasFront": true
+  },
+  {
+   "id": "arc-floor-lamp",
+   "name": "Arc floor lamp",
+   "category": "lighting",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 180,
+    "d": 40,
+    "h": 210
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "pendant-cluster",
+   "name": "Pendant cluster",
+   "category": "lighting",
+   "kind": "item",
+   "mount": "ceiling",
+   "dims": {
+    "w": 110,
+    "d": 30,
+    "h": 90
+   },
+   "elevation": 190,
+   "hasFront": false
+  },
+  {
+   "id": "mirror-arched",
+   "name": "Arched floor mirror",
+   "category": "decor",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 80,
+    "d": 6,
+    "h": 180
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "rug-runner",
+   "name": "Runner rug",
+   "category": "decor",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 80,
+    "d": 300,
+    "h": 1
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "rug-shag",
+   "name": "Shag rug",
+   "category": "decor",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 200,
+    "d": 140,
+    "h": 4
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "wall-art-set",
+   "name": "Gallery wall set",
+   "category": "decor",
+   "kind": "item",
+   "mount": "wall",
+   "dims": {
+    "w": 150,
+    "d": 3,
+    "h": 90
+   },
+   "elevation": 120,
+   "hasFront": true
+  },
+  {
+   "id": "curtains-sheer",
+   "name": "Curtains with sheers",
+   "category": "decor",
+   "kind": "item",
+   "mount": "wall",
+   "dims": {
+    "w": 220,
+    "d": 16,
+    "h": 260
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "blinds",
+   "name": "Venetian blinds",
+   "category": "decor",
+   "kind": "item",
+   "mount": "wall",
+   "dims": {
+    "w": 120,
+    "d": 6,
+    "h": 150
+   },
+   "elevation": 90,
+   "hasFront": true
+  },
+  {
+   "id": "room-divider",
+   "name": "Folding screen divider",
+   "category": "decor",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 180,
+    "d": 40,
+    "h": 175
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "grandfather-clock",
+   "name": "Grandfather clock",
+   "category": "decor",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 50,
+    "d": 30,
+    "h": 200
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "fig-tree",
+   "name": "Fiddle-leaf fig tree",
+   "category": "decor",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 75,
+    "d": 75,
+    "h": 190
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "cactus",
+   "name": "Cactus",
+   "category": "decor",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 40,
+    "d": 30,
+    "h": 110
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "vase-set",
+   "name": "Vase set",
+   "category": "decor",
+   "kind": "item",
+   "mount": "surface",
+   "dims": {
+    "w": 45,
+    "d": 20,
+    "h": 42
+   },
+   "elevation": 75,
+   "hasFront": false
+  },
+  {
+   "id": "treadmill",
+   "name": "Treadmill",
+   "category": "decor",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 80,
+    "d": 180,
+    "h": 140
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "exercise-bike",
+   "name": "Exercise bike",
+   "category": "decor",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 55,
+    "d": 115,
+    "h": 125
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "weight-bench",
+   "name": "Weight bench & rack",
+   "category": "decor",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 180,
+    "d": 130,
+    "h": 130
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "yoga-mat",
+   "name": "Yoga mat",
+   "category": "decor",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 65,
+    "d": 185,
+    "h": 12
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "pool-table",
+   "name": "Pool table",
+   "category": "living",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 250,
+    "d": 140,
+    "h": 80
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "bean-bag",
+   "name": "Bean bag chair",
+   "category": "living",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 90,
+    "d": 90,
+    "h": 75
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "projector-screen",
+   "name": "Projector screen",
+   "category": "living",
+   "kind": "item",
+   "mount": "wall",
+   "dims": {
+    "w": 250,
+    "d": 12,
+    "h": 160
+   },
+   "elevation": 90,
+   "hasFront": true
+  },
+  {
+   "id": "murphy-bed",
+   "name": "Murphy wall bed",
+   "category": "bedroom",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 165,
+    "d": 45,
+    "h": 220
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "kitchen-cart",
+   "name": "Kitchen cart",
+   "category": "kitchen",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 80,
+    "d": 45,
+    "h": 90
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "water-heater",
+   "name": "Water heater",
+   "category": "bathroom",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 60,
+    "d": 60,
+    "h": 150
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "wine-rack",
+   "name": "Wine rack",
+   "category": "dining",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 90,
+    "d": 35,
+    "h": 180
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "foosball-table",
+   "name": "Foosball table",
+   "category": "kids",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 140,
+    "d": 75,
+    "h": 90
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "aquarium",
+   "name": "Aquarium",
+   "category": "decor",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 120,
+    "d": 45,
+    "h": 140
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "cat-tree",
+   "name": "Cat tree",
+   "category": "decor",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 60,
+    "d": 50,
+    "h": 160
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "dog-bed",
+   "name": "Dog bed",
+   "category": "decor",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 90,
+    "d": 70,
+    "h": 25
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "hall-tree",
+   "name": "Hall tree bench",
+   "category": "decor",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 100,
+    "d": 40,
+    "h": 190
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "sofa-chesterfield",
+   "name": "Chesterfield sofa",
+   "category": "living",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 220,
+    "d": 95,
+    "h": 78
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "armchair-wingback",
+   "name": "Wingback chair",
+   "category": "living",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 85,
+    "d": 90,
+    "h": 110
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "rocking-chair",
+   "name": "Rocking chair",
+   "category": "living",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 65,
+    "d": 90,
+    "h": 105
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "nesting-tables",
+   "name": "Nesting side tables",
+   "category": "living",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 60,
+    "d": 40,
+    "h": 55
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "bed-upholstered",
+   "name": "Upholstered bed",
+   "category": "bedroom",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 180,
+    "d": 215,
+    "h": 120
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "clawfoot-tub",
+   "name": "Clawfoot bathtub",
+   "category": "bathroom",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 170,
+    "d": 75,
+    "h": 75
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "towel-radiator",
+   "name": "Heated towel rail",
+   "category": "bathroom",
+   "kind": "item",
+   "mount": "wall",
+   "dims": {
+    "w": 50,
+    "d": 10,
+    "h": 120
+   },
+   "elevation": 20,
+   "hasFront": true
+  },
+  {
+   "id": "range-cooker",
+   "name": "Dual-fuel range cooker",
+   "category": "kitchen",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 110,
+    "d": 65,
+    "h": 95
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "high-chair",
+   "name": "High chair",
+   "category": "kids",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 60,
+    "d": 75,
+    "h": 100
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "drafting-table",
+   "name": "Drafting table",
+   "category": "office",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 120,
+    "d": 80,
+    "h": 95
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "pendant-rattan",
+   "name": "Rattan pendant",
+   "category": "lighting",
+   "kind": "item",
+   "mount": "ceiling",
+   "dims": {
+    "w": 50,
+    "d": 50,
+    "h": 60
+   },
+   "elevation": 220,
+   "hasFront": false
+  },
+  {
+   "id": "plant-monstera",
+   "name": "Monstera plant",
+   "category": "decor",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 90,
+    "d": 90,
+    "h": 150
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "wall-clock-sunburst",
+   "name": "Sunburst wall clock",
+   "category": "decor",
+   "kind": "item",
+   "mount": "wall",
+   "dims": {
+    "w": 70,
+    "d": 6,
+    "h": 70
+   },
+   "elevation": 165,
+   "hasFront": true
+  },
+  {
+   "id": "ironing-board",
+   "name": "Ironing board",
+   "category": "bathroom",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 130,
+    "d": 40,
+    "h": 90
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "tree-oak",
+   "name": "Oak tree",
+   "category": "landscape",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 700,
+    "d": 700,
+    "h": 900
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "tree-maple",
+   "name": "Red maple",
+   "category": "landscape",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 600,
+    "d": 600,
+    "h": 850
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "tree-birch",
+   "name": "Silver birch",
+   "category": "landscape",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 400,
+    "d": 400,
+    "h": 900
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "tree-spruce",
+   "name": "Spruce",
+   "category": "landscape",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 350,
+    "d": 350,
+    "h": 1000
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "tree-pine",
+   "name": "Scots pine",
+   "category": "landscape",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 500,
+    "d": 500,
+    "h": 1100
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "tree-palm",
+   "name": "Palm tree",
+   "category": "landscape",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 450,
+    "d": 450,
+    "h": 800
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "tree-cypress",
+   "name": "Italian cypress",
+   "category": "landscape",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 150,
+    "d": 150,
+    "h": 800
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "tree-apple",
+   "name": "Apple tree",
+   "category": "landscape",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 400,
+    "d": 400,
+    "h": 450
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "tree-willow",
+   "name": "Weeping willow",
+   "category": "landscape",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 700,
+    "d": 700,
+    "h": 800
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "tree-japanese-maple",
+   "name": "Japanese maple",
+   "category": "landscape",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 350,
+    "d": 300,
+    "h": 300
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "tree-cherry",
+   "name": "Cherry blossom",
+   "category": "landscape",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 500,
+    "d": 500,
+    "h": 550
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "tree-olive",
+   "name": "Olive tree",
+   "category": "landscape",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 350,
+    "d": 350,
+    "h": 400
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "tree-magnolia",
+   "name": "Magnolia",
+   "category": "landscape",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 450,
+    "d": 450,
+    "h": 500
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "tree-lemon",
+   "name": "Lemon tree",
+   "category": "landscape",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 300,
+    "d": 300,
+    "h": 350
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "tree-blue-spruce",
+   "name": "Blue spruce",
+   "category": "landscape",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 320,
+    "d": 320,
+    "h": 850
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "shrub-boxwood",
+   "name": "Boxwood ball",
+   "category": "landscape",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 70,
+    "d": 70,
+    "h": 65
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "hedge-block",
+   "name": "Hedge section",
+   "category": "landscape",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 200,
+    "d": 60,
+    "h": 120
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "shrub-topiary-cone",
+   "name": "Topiary cone",
+   "category": "landscape",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 60,
+    "d": 60,
+    "h": 160
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "shrub-hydrangea",
+   "name": "Hydrangea",
+   "category": "landscape",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 120,
+    "d": 120,
+    "h": 100
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "shrub-rose",
+   "name": "Rose bush",
+   "category": "landscape",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 90,
+    "d": 90,
+    "h": 110
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "plant-lavender",
+   "name": "Lavender",
+   "category": "landscape",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 100,
+    "d": 50,
+    "h": 55
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "plant-ornamental-grass",
+   "name": "Ornamental grass",
+   "category": "landscape",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 90,
+    "d": 90,
+    "h": 110
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "plant-fern",
+   "name": "Fern",
+   "category": "landscape",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 80,
+    "d": 80,
+    "h": 60
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "plant-hosta",
+   "name": "Hosta",
+   "category": "landscape",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 90,
+    "d": 90,
+    "h": 55
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "shrub-juniper",
+   "name": "Spreading juniper",
+   "category": "landscape",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 150,
+    "d": 120,
+    "h": 60
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "plant-bamboo",
+   "name": "Bamboo clump",
+   "category": "landscape",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 120,
+    "d": 120,
+    "h": 350
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "plant-agave",
+   "name": "Agave",
+   "category": "landscape",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 100,
+    "d": 100,
+    "h": 70
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "plant-cactus",
+   "name": "Saguaro cactus",
+   "category": "landscape",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 80,
+    "d": 45,
+    "h": 190
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "flower-bed",
+   "name": "Flower bed",
+   "category": "landscape",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 200,
+    "d": 100,
+    "h": 40
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "flower-bed-round",
+   "name": "Round flower bed",
+   "category": "landscape",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 180,
+    "d": 180,
+    "h": 45
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "flower-tulips",
+   "name": "Tulip border",
+   "category": "landscape",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 150,
+    "d": 40,
+    "h": 45
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "flower-sunflowers",
+   "name": "Sunflower row",
+   "category": "landscape",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 150,
+    "d": 40,
+    "h": 160
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "rock-boulder",
+   "name": "Boulder",
+   "category": "landscape",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 120,
+    "d": 90,
+    "h": 70
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "rock-cluster",
+   "name": "Rock cluster",
+   "category": "landscape",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 180,
+    "d": 120,
+    "h": 60
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "stepping-stones",
+   "name": "Stepping stones",
+   "category": "landscape",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 70,
+    "d": 260,
+    "h": 5
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "planter-pot-large",
+   "name": "Large pot with shrub",
+   "category": "landscape",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 70,
+    "d": 70,
+    "h": 120
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "raised-bed",
+   "name": "Raised garden bed",
+   "category": "landscape",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 240,
+    "d": 120,
+    "h": 60
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "vegetable-patch",
+   "name": "Vegetable patch",
+   "category": "landscape",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 300,
+    "d": 200,
+    "h": 60
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "planter-trough",
+   "name": "Corten planter",
+   "category": "landscape",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 180,
+    "d": 45,
+    "h": 90
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "compost-bin",
+   "name": "Compost bin",
+   "category": "landscape",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 100,
+    "d": 90,
+    "h": 90
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "pergola",
+   "name": "Pergola",
+   "category": "exterior",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 400,
+    "d": 300,
+    "h": 260
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "gazebo",
+   "name": "Gazebo",
+   "category": "exterior",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 360,
+    "d": 360,
+    "h": 340
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "garden-shed",
+   "name": "Garden shed",
+   "category": "exterior",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 250,
+    "d": 200,
+    "h": 240
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "carport",
+   "name": "Carport",
+   "category": "exterior",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 320,
+    "d": 560,
+    "h": 260
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "greenhouse",
+   "name": "Greenhouse",
+   "category": "exterior",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 300,
+    "d": 200,
+    "h": 250
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "garage-door-panel",
+   "name": "Sectional garage door",
+   "category": "exterior",
+   "kind": "item",
+   "mount": "wall",
+   "dims": {
+    "w": 260,
+    "d": 12,
+    "h": 230
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "awning",
+   "name": "Retractable awning",
+   "category": "exterior",
+   "kind": "item",
+   "mount": "wall",
+   "dims": {
+    "w": 300,
+    "d": 160,
+    "h": 70
+   },
+   "elevation": 210,
+   "hasFront": true
+  },
+  {
+   "id": "fence-gate",
+   "name": "Garden gate",
+   "category": "exterior",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 130,
+    "d": 14,
+    "h": 125
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "trellis",
+   "name": "Trellis with climber",
+   "category": "exterior",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 120,
+    "d": 40,
+    "h": 200
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "garden-arbor",
+   "name": "Rose arbor",
+   "category": "exterior",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 160,
+    "d": 70,
+    "h": 240
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "hot-tub",
+   "name": "Hot tub",
+   "category": "exterior",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 220,
+    "d": 220,
+    "h": 95
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "pool-above-ground",
+   "name": "Above-ground pool",
+   "category": "exterior",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 460,
+    "d": 460,
+    "h": 125
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "pool-ladder",
+   "name": "Pool ladder",
+   "category": "exterior",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 60,
+    "d": 90,
+    "h": 140
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "pool-float",
+   "name": "Pool lounger float",
+   "category": "exterior",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 180,
+    "d": 80,
+    "h": 22
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "swing-set",
+   "name": "Swing set",
+   "category": "exterior",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 340,
+    "d": 180,
+    "h": 220
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "slide",
+   "name": "Playground slide",
+   "category": "exterior",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 90,
+    "d": 360,
+    "h": 210
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "trampoline",
+   "name": "Trampoline",
+   "category": "exterior",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 370,
+    "d": 370,
+    "h": 260
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "sandbox",
+   "name": "Sandbox",
+   "category": "exterior",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 180,
+    "d": 180,
+    "h": 35
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "playhouse",
+   "name": "Playhouse",
+   "category": "exterior",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 180,
+    "d": 150,
+    "h": 220
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "basketball-hoop",
+   "name": "Basketball hoop",
+   "category": "exterior",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 120,
+    "d": 160,
+    "h": 350
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "doghouse",
+   "name": "Doghouse",
+   "category": "exterior",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 90,
+    "d": 110,
+    "h": 95
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "car-sedan",
+   "name": "Sedan car",
+   "category": "exterior",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 470,
+    "d": 185,
+    "h": 145
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "car-suv",
+   "name": "SUV",
+   "category": "exterior",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 480,
+    "d": 195,
+    "h": 175
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "car-hatchback",
+   "name": "Hatchback car",
+   "category": "exterior",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 410,
+    "d": 180,
+    "h": 150
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "bicycle",
+   "name": "Bicycle",
+   "category": "exterior",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 175,
+    "d": 60,
+    "h": 105
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "motorcycle",
+   "name": "Motorcycle",
+   "category": "exterior",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 215,
+    "d": 80,
+    "h": 115
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "lamp-post",
+   "name": "Lamp post",
+   "category": "exterior",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 45,
+    "d": 45,
+    "h": 320
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "bollard-light",
+   "name": "Bollard light",
+   "category": "exterior",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 22,
+    "d": 22,
+    "h": 85
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "path-light",
+   "name": "Garden path light",
+   "category": "exterior",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 22,
+    "d": 22,
+    "h": 55
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "mailbox",
+   "name": "Mailbox",
+   "category": "exterior",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 30,
+    "d": 55,
+    "h": 120
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "bench-park",
+   "name": "Park bench",
+   "category": "exterior",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 180,
+    "d": 65,
+    "h": 82
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "bike-rack",
+   "name": "Bike rack",
+   "category": "exterior",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 180,
+    "d": 50,
+    "h": 80
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "trash-bins",
+   "name": "Wheelie bins",
+   "category": "exterior",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 135,
+    "d": 75,
+    "h": 110
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "fountain",
+   "name": "Tiered fountain",
+   "category": "exterior",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 200,
+    "d": 200,
+    "h": 180
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "bird-bath",
+   "name": "Bird bath",
+   "category": "exterior",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 55,
+    "d": 55,
+    "h": 80
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "fire-pit",
+   "name": "Fire pit",
+   "category": "exterior",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 120,
+    "d": 120,
+    "h": 55
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "outdoor-kitchen",
+   "name": "Outdoor kitchen",
+   "category": "exterior",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 300,
+    "d": 80,
+    "h": 120
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "grill-kettle",
+   "name": "Kettle grill",
+   "category": "exterior",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 65,
+    "d": 65,
+    "h": 100
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "solar-array",
+   "name": "Solar panel array",
+   "category": "exterior",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 420,
+    "d": 220,
+    "h": 150
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "ac-condenser",
+   "name": "AC condenser unit",
+   "category": "exterior",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 95,
+    "d": 40,
+    "h": 85
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "water-tank",
+   "name": "Rainwater tank",
+   "category": "exterior",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 150,
+    "d": 150,
+    "h": 200
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "clothesline",
+   "name": "Rotary clothesline",
+   "category": "exterior",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 260,
+    "d": 260,
+    "h": 185
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "wheelbarrow",
+   "name": "Wheelbarrow",
+   "category": "exterior",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 150,
+    "d": 65,
+    "h": 70
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "sun-lounger-teak",
+   "name": "Teak sun lounger",
+   "category": "outdoor",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 200,
+    "d": 70,
+    "h": 85
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "hammock",
+   "name": "Hammock with stand",
+   "category": "outdoor",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 380,
+    "d": 120,
+    "h": 130
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "picnic-table",
+   "name": "Picnic table",
+   "category": "outdoor",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 180,
+    "d": 160,
+    "h": 75
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "pool-umbrella",
+   "name": "Cantilever umbrella",
+   "category": "outdoor",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 300,
+    "d": 300,
+    "h": 260
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "outdoor-sofa",
+   "name": "Outdoor sofa",
+   "category": "outdoor",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 200,
+    "d": 85,
+    "h": 75
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "outdoor-sectional",
+   "name": "Outdoor corner sofa",
+   "category": "outdoor",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 260,
+    "d": 220,
+    "h": 75
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "outdoor-lounge-chair",
+   "name": "Outdoor lounge chair",
+   "category": "outdoor",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 80,
+    "d": 85,
+    "h": 75
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "adirondack-chair",
+   "name": "Adirondack chair",
+   "category": "outdoor",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 75,
+    "d": 90,
+    "h": 95
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "porch-rocker",
+   "name": "Porch rocking chair",
+   "category": "outdoor",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 65,
+    "d": 90,
+    "h": 105
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "porch-swing",
+   "name": "Porch swing",
+   "category": "outdoor",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 180,
+    "d": 150,
+    "h": 210
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "egg-chair-hanging",
+   "name": "Hanging egg chair",
+   "category": "outdoor",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 110,
+    "d": 110,
+    "h": 195
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "outdoor-daybed",
+   "name": "Canopy daybed",
+   "category": "outdoor",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 210,
+    "d": 150,
+    "h": 200
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "outdoor-coffee-table",
+   "name": "Outdoor coffee table",
+   "category": "outdoor",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 110,
+    "d": 60,
+    "h": 38
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "bistro-set",
+   "name": "Bistro set",
+   "category": "outdoor",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 150,
+    "d": 80,
+    "h": 90
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "outdoor-dining-set",
+   "name": "Outdoor dining set (6)",
+   "category": "outdoor",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 240,
+    "d": 180,
+    "h": 90
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "patio-heater",
+   "name": "Patio heater",
+   "category": "outdoor",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 80,
+    "d": 80,
+    "h": 225
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "outdoor-rug",
+   "name": "Outdoor rug",
+   "category": "outdoor",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 240,
+    "d": 170,
+    "h": 1
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "deck-box",
+   "name": "Deck storage box",
+   "category": "outdoor",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 130,
+    "d": 60,
+    "h": 62
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "tree-linden",
+   "name": "Linden tree",
+   "category": "landscape",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 600,
+    "d": 600,
+    "h": 1000
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "tree-dogwood",
+   "name": "Flowering dogwood",
+   "category": "landscape",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 450,
+    "d": 450,
+    "h": 450
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "tree-jacaranda",
+   "name": "Jacaranda",
+   "category": "landscape",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 650,
+    "d": 650,
+    "h": 700
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "shrub-azalea",
+   "name": "Azalea",
+   "category": "landscape",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 110,
+    "d": 110,
+    "h": 80
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "shrub-arborvitae",
+   "name": "Arborvitae",
+   "category": "landscape",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 80,
+    "d": 80,
+    "h": 250
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "plant-peony",
+   "name": "Peony",
+   "category": "landscape",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 70,
+    "d": 70,
+    "h": 75
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "herb-spiral",
+   "name": "Herb spiral",
+   "category": "landscape",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 200,
+    "d": 200,
+    "h": 80
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "green-wall",
+   "name": "Living wall panel",
+   "category": "landscape",
+   "kind": "item",
+   "mount": "wall",
+   "dims": {
+    "w": 150,
+    "d": 15,
+    "h": 200
+   },
+   "elevation": 40,
+   "hasFront": true
+  },
+  {
+   "id": "wildflower-meadow",
+   "name": "Wildflower meadow",
+   "category": "landscape",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 300,
+    "d": 200,
+    "h": 50
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "rock-garden",
+   "name": "Alpine rockery",
+   "category": "landscape",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 250,
+    "d": 180,
+    "h": 70
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "planter-box-wood",
+   "name": "Wooden planter box",
+   "category": "landscape",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 120,
+    "d": 45,
+    "h": 75
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "hanging-basket",
+   "name": "Hanging flower basket",
+   "category": "landscape",
+   "kind": "item",
+   "mount": "wall",
+   "dims": {
+    "w": 45,
+    "d": 45,
+    "h": 70
+   },
+   "elevation": 150,
+   "hasFront": false
+  },
+  {
+   "id": "stone-lantern",
+   "name": "Stone lantern",
+   "category": "landscape",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 60,
+    "d": 60,
+    "h": 150
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "water-lilies",
+   "name": "Water lilies",
+   "category": "landscape",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 150,
+    "d": 120,
+    "h": 12
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "rock-waterfall",
+   "name": "Rock waterfall",
+   "category": "landscape",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 220,
+    "d": 150,
+    "h": 140
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "pergola-louvered",
+   "name": "Louvered pergola",
+   "category": "exterior",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 400,
+    "d": 350,
+    "h": 270
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "sun-sail",
+   "name": "Shade sail",
+   "category": "exterior",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 500,
+    "d": 400,
+    "h": 300
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "sauna-barrel",
+   "name": "Barrel sauna",
+   "category": "exterior",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 240,
+    "d": 200,
+    "h": 215
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "outdoor-shower",
+   "name": "Outdoor shower",
+   "category": "exterior",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 90,
+    "d": 60,
+    "h": 230
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "pool-diving-board",
+   "name": "Diving board",
+   "category": "exterior",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 70,
+    "d": 300,
+    "h": 70
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "outdoor-fireplace",
+   "name": "Outdoor fireplace",
+   "category": "exterior",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 180,
+    "d": 90,
+    "h": 300
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "pizza-oven",
+   "name": "Wood-fired pizza oven",
+   "category": "exterior",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 120,
+    "d": 110,
+    "h": 190
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "gas-grill",
+   "name": "Gas grill",
+   "category": "exterior",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 150,
+    "d": 65,
+    "h": 120
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "firewood-store",
+   "name": "Firewood store",
+   "category": "exterior",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 200,
+    "d": 70,
+    "h": 180
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "chicken-coop",
+   "name": "Chicken coop",
+   "category": "exterior",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 200,
+    "d": 110,
+    "h": 160
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "bee-hive",
+   "name": "Beehive",
+   "category": "exterior",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 55,
+    "d": 50,
+    "h": 80
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "rain-barrel",
+   "name": "Rain barrel",
+   "category": "exterior",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 65,
+    "d": 65,
+    "h": 110
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "ev-charger",
+   "name": "EV charging station",
+   "category": "exterior",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 35,
+    "d": 25,
+    "h": 150
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "wall-lantern",
+   "name": "Outdoor wall lantern",
+   "category": "exterior",
+   "kind": "item",
+   "mount": "wall",
+   "dims": {
+    "w": 22,
+    "d": 25,
+    "h": 40
+   },
+   "elevation": 180,
+   "hasFront": true
+  },
+  {
+   "id": "festoon-lights",
+   "name": "Festoon string lights",
+   "category": "exterior",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 600,
+    "d": 30,
+    "h": 280
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "flagpole",
+   "name": "Flagpole",
+   "category": "exterior",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 120,
+    "d": 40,
+    "h": 700
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "driveway-gate",
+   "name": "Driveway gate",
+   "category": "exterior",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 400,
+    "d": 20,
+    "h": 160
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "garden-steps",
+   "name": "Garden steps",
+   "category": "exterior",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 150,
+    "d": 120,
+    "h": 60
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "bird-feeder",
+   "name": "Bird feeder",
+   "category": "exterior",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 40,
+    "d": 40,
+    "h": 180
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "soccer-goal",
+   "name": "Soccer goal",
+   "category": "exterior",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 300,
+    "d": 150,
+    "h": 200
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "ping-pong-table",
+   "name": "Outdoor table tennis table",
+   "category": "exterior",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 274,
+    "d": 153,
+    "h": 76
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "seesaw",
+   "name": "Seesaw",
+   "category": "exterior",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 300,
+    "d": 50,
+    "h": 90
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "car-van",
+   "name": "Minivan",
+   "category": "exterior",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 510,
+    "d": 195,
+    "h": 180
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "tree-copper-beech",
+   "name": "Copper beech",
+   "category": "landscape",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 800,
+    "d": 800,
+    "h": 1000
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "tree-ginkgo",
+   "name": "Ginkgo",
+   "category": "landscape",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 450,
+    "d": 450,
+    "h": 900
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "tree-plum",
+   "name": "Plum tree",
+   "category": "landscape",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 400,
+    "d": 400,
+    "h": 450
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "tree-plane",
+   "name": "Plane tree",
+   "category": "landscape",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 900,
+    "d": 900,
+    "h": 1200
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "shrub-lilac",
+   "name": "Lilac",
+   "category": "landscape",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 180,
+    "d": 180,
+    "h": 250
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "topiary-standard",
+   "name": "Topiary standard",
+   "category": "landscape",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 60,
+    "d": 60,
+    "h": 150
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "plant-yucca",
+   "name": "Yucca",
+   "category": "landscape",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 120,
+    "d": 120,
+    "h": 160
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "flower-daffodils",
+   "name": "Daffodils",
+   "category": "landscape",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 60,
+    "d": 60,
+    "h": 40
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "plant-pampas-grass",
+   "name": "Pampas grass",
+   "category": "landscape",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 150,
+    "d": 150,
+    "h": 220
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "plant-tomato",
+   "name": "Tomato plants",
+   "category": "landscape",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 120,
+    "d": 50,
+    "h": 140
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "planter-urn",
+   "name": "Stone urn planter",
+   "category": "landscape",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 70,
+    "d": 70,
+    "h": 110
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "tree-stump",
+   "name": "Tree stump seat",
+   "category": "landscape",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 60,
+    "d": 60,
+    "h": 45
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "plant-succulent-bowl",
+   "name": "Succulent bowl",
+   "category": "landscape",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 60,
+    "d": 60,
+    "h": 30
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "ivy-obelisk",
+   "name": "Climber obelisk",
+   "category": "landscape",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 50,
+    "d": 50,
+    "h": 200
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "bike-shelter",
+   "name": "Bike shelter",
+   "category": "exterior",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 220,
+    "d": 120,
+    "h": 160
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "garage-detached",
+   "name": "Detached garage",
+   "category": "exterior",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 350,
+    "d": 650,
+    "h": 300
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "pool-slide",
+   "name": "Pool slide",
+   "category": "exterior",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 120,
+    "d": 350,
+    "h": 230
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "tire-swing",
+   "name": "Tire swing",
+   "category": "exterior",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 200,
+    "d": 150,
+    "h": 230
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "climbing-frame",
+   "name": "Climbing frame",
+   "category": "exterior",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 350,
+    "d": 250,
+    "h": 260
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "garden-bridge",
+   "name": "Garden bridge",
+   "category": "exterior",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 300,
+    "d": 120,
+    "h": 90
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "sundial",
+   "name": "Sundial",
+   "category": "exterior",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 45,
+    "d": 45,
+    "h": 100
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "garden-gnome",
+   "name": "Garden gnome",
+   "category": "exterior",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 25,
+    "d": 25,
+    "h": 45
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "potting-bench",
+   "name": "Potting bench",
+   "category": "exterior",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 140,
+    "d": 60,
+    "h": 140
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "hose-reel",
+   "name": "Hose reel cart",
+   "category": "exterior",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 60,
+    "d": 50,
+    "h": 85
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "garden-spotlight",
+   "name": "Garden spotlight",
+   "category": "exterior",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 15,
+    "d": 20,
+    "h": 35
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "wall-fountain",
+   "name": "Wall fountain",
+   "category": "exterior",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 80,
+    "d": 35,
+    "h": 120
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "car-pickup",
+   "name": "Pickup truck",
+   "category": "exterior",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 560,
+    "d": 200,
+    "h": 190
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "golf-cart",
+   "name": "Golf cart",
+   "category": "exterior",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 240,
+    "d": 120,
+    "h": 180
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "kayak",
+   "name": "Kayak",
+   "category": "exterior",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 350,
+    "d": 65,
+    "h": 40
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "outdoor-bar-set",
+   "name": "Outdoor bar set",
+   "category": "outdoor",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 160,
+    "d": 70,
+    "h": 110
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "double-lounger",
+   "name": "Double sun lounger",
+   "category": "outdoor",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 150,
+    "d": 200,
+    "h": 80
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "outdoor-bean-bag",
+   "name": "Outdoor bean bag",
+   "category": "outdoor",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 90,
+    "d": 90,
+    "h": 70
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "outdoor-side-table",
+   "name": "Outdoor side table",
+   "category": "outdoor",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 50,
+    "d": 50,
+    "h": 50
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "rattan-loveseat",
+   "name": "Rattan loveseat",
+   "category": "outdoor",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 140,
+    "d": 80,
+    "h": 80
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "cafe-table-round",
+   "name": "Round café table",
+   "category": "outdoor",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 70,
+    "d": 70,
+    "h": 74
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "no-ikea-kivik-3",
+   "name": "KIVIK 3-seat sofa (IKEA)",
+   "category": "living",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 228,
+    "d": 95,
+    "h": 83
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "no-ikea-ektorp-3",
+   "name": "EKTORP 3-seat sofa (IKEA)",
+   "category": "living",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 218,
+    "d": 88,
+    "h": 88
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "no-ikea-friheten",
+   "name": "FRIHETEN corner sofa-bed (IKEA)",
+   "category": "living",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 230,
+    "d": 151,
+    "h": 66
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "no-ikea-klippan",
+   "name": "KLIPPAN 2-seat sofa (IKEA)",
+   "category": "living",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 180,
+    "d": 88,
+    "h": 66
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "no-ikea-poang",
+   "name": "POÄNG armchair (IKEA)",
+   "category": "living",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 68,
+    "d": 82,
+    "h": 100
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "no-ikea-strandmon",
+   "name": "STRANDMON wing chair (IKEA)",
+   "category": "living",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 82,
+    "d": 96,
+    "h": 101
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "no-ikea-lack-coffee",
+   "name": "LACK coffee table (IKEA)",
+   "category": "living",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 90,
+    "d": 55,
+    "h": 45
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "no-ikea-lack-side",
+   "name": "LACK side table (IKEA)",
+   "category": "living",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 55,
+    "d": 55,
+    "h": 45
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "no-ikea-besta-tv",
+   "name": "BESTÅ TV bench (IKEA)",
+   "category": "living",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 180,
+    "d": 42,
+    "h": 38
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "no-ikea-billy",
+   "name": "BILLY bookcase (IKEA)",
+   "category": "living",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 80,
+    "d": 28,
+    "h": 202
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "no-ikea-kallax-4x4",
+   "name": "KALLAX shelving unit 4×4 (IKEA)",
+   "category": "living",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 147,
+    "d": 39,
+    "h": 147
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "no-ikea-hektar-floor",
+   "name": "HEKTAR floor lamp (IKEA)",
+   "category": "lighting",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 37,
+    "d": 37,
+    "h": 181
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "no-ikea-stoense",
+   "name": "STOENSE rug 170×240 (IKEA)",
+   "category": "living",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 170,
+    "d": 240,
+    "h": 1
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "no-ikea-malm-bed-160",
+   "name": "MALM bed frame 160×200 (IKEA)",
+   "category": "bedroom",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 176,
+    "d": 209,
+    "h": 100
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "no-ikea-malm-bed-180",
+   "name": "MALM bed frame 180×200 (IKEA)",
+   "category": "bedroom",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 196,
+    "d": 209,
+    "h": 100
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "no-ikea-malm-6",
+   "name": "MALM chest of 6 drawers (IKEA)",
+   "category": "bedroom",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 160,
+    "d": 48,
+    "h": 78
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "no-ikea-hemnes-nightstand",
+   "name": "HEMNES bedside table (IKEA)",
+   "category": "bedroom",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 46,
+    "d": 35,
+    "h": 70
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "no-ikea-pax-100",
+   "name": "PAX wardrobe 100 cm (IKEA)",
+   "category": "bedroom",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 100,
+    "d": 58,
+    "h": 201
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "no-ikea-pax-200",
+   "name": "PAX wardrobe 200 cm (IKEA)",
+   "category": "bedroom",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 200,
+    "d": 66,
+    "h": 236
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "no-ikea-micke",
+   "name": "MICKE desk (IKEA)",
+   "category": "office",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 105,
+    "d": 50,
+    "h": 75
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "no-ikea-alex-desk",
+   "name": "ALEX desk (IKEA)",
+   "category": "office",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 132,
+    "d": 58,
+    "h": 76
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "no-ikea-markus",
+   "name": "MARKUS office chair (IKEA)",
+   "category": "office",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 62,
+    "d": 60,
+    "h": 135
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "no-ikea-ekedalen",
+   "name": "EKEDALEN extendable table (IKEA)",
+   "category": "dining",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 180,
+    "d": 80,
+    "h": 75
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "no-ikea-lisabo",
+   "name": "LISABO table (IKEA)",
+   "category": "dining",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 140,
+    "d": 78,
+    "h": 74
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "no-ikea-ingolf",
+   "name": "INGOLF chair (IKEA)",
+   "category": "dining",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 43,
+    "d": 52,
+    "h": 91
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "no-ikea-stefan",
+   "name": "STEFAN chair (IKEA)",
+   "category": "dining",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 42,
+    "d": 49,
+    "h": 90
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "no-ikea-ivar",
+   "name": "IVAR shelving unit (pine) (IKEA)",
+   "category": "office",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 89,
+    "d": 30,
+    "h": 179
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "no-ikea-hemnes-shoe",
+   "name": "HEMNES shoe cabinet (IKEA)",
+   "category": "decor",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 89,
+    "d": 30,
+    "h": 127
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "no-ikea-metod-base",
+   "name": "METOD base cabinet 60 cm (IKEA)",
+   "category": "kitchen",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 60,
+    "d": 62,
+    "h": 88
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "no-ikea-metod-sink",
+   "name": "METOD sink cabinet 80 cm (IKEA)",
+   "category": "kitchen",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 80,
+    "d": 62,
+    "h": 88
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "no-ikea-metod-wall",
+   "name": "METOD wall cabinet 60 cm (IKEA)",
+   "category": "kitchen",
+   "kind": "item",
+   "mount": "wall",
+   "dims": {
+    "w": 60,
+    "d": 37,
+    "h": 80
+   },
+   "elevation": 145,
+   "hasFront": true
+  },
+  {
+   "id": "no-ikea-metod-tall",
+   "name": "METOD high cabinet (oven/micro) (IKEA)",
+   "category": "kitchen",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 60,
+    "d": 62,
+    "h": 228
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "no-ikea-godmorgon",
+   "name": "GODMORGON wash-stand with basin (IKEA)",
+   "category": "bathroom",
+   "kind": "item",
+   "mount": "wall",
+   "dims": {
+    "w": 80,
+    "d": 49,
+    "h": 64
+   },
+   "elevation": 25,
+   "hasFront": true
+  },
+  {
+   "id": "no-ikea-tuffing",
+   "name": "TUFFING bunk bed (IKEA)",
+   "category": "kids",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 96,
+    "d": 207,
+    "h": 130
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "no-ikea-sundvik-cot",
+   "name": "SUNDVIK cot (IKEA)",
+   "category": "kids",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 66,
+    "d": 123,
+    "h": 80
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "no-ikea-trofast",
+   "name": "TROFAST storage combination (IKEA)",
+   "category": "kids",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 99,
+    "d": 44,
+    "h": 94
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "no-ikea-applaro-table",
+   "name": "ÄPPLARÖ garden table (IKEA)",
+   "category": "outdoor",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 140,
+    "d": 78,
+    "h": 72
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "no-ikea-applaro-chair",
+   "name": "ÄPPLARÖ garden chair (IKEA)",
+   "category": "outdoor",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 56,
+    "d": 64,
+    "h": 87
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "no-bohus-continental-180",
+   "name": "Continental bed 180×200 (Bohus)",
+   "category": "bedroom",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 180,
+    "d": 200,
+    "h": 120
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "no-bohus-corner-sofa",
+   "name": "Corner sofa (Bohus)",
+   "category": "living",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 290,
+    "d": 165,
+    "h": 85
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "no-bohus-recliner",
+   "name": "Recliner (Bohus)",
+   "category": "living",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 85,
+    "d": 90,
+    "h": 105
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "no-bohus-dining-oak",
+   "name": "Oak dining table (Bohus)",
+   "category": "dining",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 200,
+    "d": 95,
+    "h": 75
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "no-bohus-sideboard",
+   "name": "Sideboard (Bohus)",
+   "category": "dining",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 180,
+    "d": 45,
+    "h": 80
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "no-skeidar-continental-160",
+   "name": "Continental bed 160×200 (Skeidar)",
+   "category": "bedroom",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 160,
+    "d": 200,
+    "h": 120
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "no-skeidar-sofa-3",
+   "name": "3-seat sofa (Skeidar)",
+   "category": "living",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 220,
+    "d": 92,
+    "h": 84
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "no-skeidar-coffee-table",
+   "name": "Coffee table (Skeidar)",
+   "category": "living",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 90,
+    "d": 90,
+    "h": 42
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "no-skeidar-dining-set",
+   "name": "Dining chair (Skeidar)",
+   "category": "dining",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 48,
+    "d": 55,
+    "h": 88
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "no-jysk-continental-90",
+   "name": "Continental bed 90×200 (JYSK)",
+   "category": "bedroom",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 90,
+    "d": 200,
+    "h": 115
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "no-jysk-wardrobe",
+   "name": "Wardrobe (JYSK)",
+   "category": "bedroom",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 100,
+    "d": 52,
+    "h": 200
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "no-jysk-garden-set",
+   "name": "Garden lounge set (JYSK)",
+   "category": "outdoor",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 240,
+    "d": 200,
+    "h": 75
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "no-jysk-sun-lounger",
+   "name": "Sun lounger (JYSK)",
+   "category": "outdoor",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 65,
+    "d": 190,
+    "h": 40
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "no-jysk-parasol",
+   "name": "Parasol (JYSK)",
+   "category": "outdoor",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 300,
+    "d": 300,
+    "h": 245
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "no-maxbo-window-10x12",
+   "name": "Window 10×12 · 990 × 1190 (Maxbo)",
+   "category": "windows",
+   "kind": "window",
+   "mount": "opening",
+   "dims": {
+    "w": 99,
+    "d": 12,
+    "h": 119
+   },
+   "elevation": 90,
+   "hasFront": false
+  },
+  {
+   "id": "no-maxbo-window-12x12",
+   "name": "Window 12×12 · 1190 × 1190 (Maxbo)",
+   "category": "windows",
+   "kind": "window",
+   "mount": "opening",
+   "dims": {
+    "w": 119,
+    "d": 12,
+    "h": 119
+   },
+   "elevation": 90,
+   "hasFront": false
+  },
+  {
+   "id": "no-maxbo-window-15x15-pivot",
+   "name": "Top-hung pivot window 15×15 (Maxbo)",
+   "category": "windows",
+   "kind": "window",
+   "mount": "opening",
+   "dims": {
+    "w": 149,
+    "d": 12,
+    "h": 149
+   },
+   "elevation": 60,
+   "hasFront": false
+  },
+  {
+   "id": "no-maxbo-window-6x6",
+   "name": "Small window 6×6 · 590 × 590 (Maxbo)",
+   "category": "windows",
+   "kind": "window",
+   "mount": "opening",
+   "dims": {
+    "w": 59,
+    "d": 12,
+    "h": 59
+   },
+   "elevation": 150,
+   "hasFront": false
+  },
+  {
+   "id": "no-maxbo-patio-door",
+   "name": "Terrace door 10×21 (Maxbo)",
+   "category": "doors",
+   "kind": "door",
+   "mount": "opening",
+   "dims": {
+    "w": 99,
+    "d": 12,
+    "h": 209
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "no-maxbo-front-door",
+   "name": "Front door 10×21 (Maxbo)",
+   "category": "doors",
+   "kind": "door",
+   "mount": "opening",
+   "dims": {
+    "w": 99,
+    "d": 12,
+    "h": 209
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "no-maxbo-interior-door-9",
+   "name": "Interior door 9×21 (Maxbo)",
+   "category": "doors",
+   "kind": "door",
+   "mount": "opening",
+   "dims": {
+    "w": 89,
+    "d": 10,
+    "h": 209
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "no-maxbo-interior-door-10",
+   "name": "Interior door 10×21, step-free (Maxbo)",
+   "category": "doors",
+   "kind": "door",
+   "mount": "opening",
+   "dims": {
+    "w": 99,
+    "d": 10,
+    "h": 209
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "no-maxbo-jotul-f100",
+   "name": "Jøtul F 100 wood stove (Maxbo)",
+   "category": "living",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 52,
+    "d": 45,
+    "h": 230
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "no-maxbo-stairs",
+   "name": "Straight timber staircase (Maxbo)",
+   "category": "decor",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 90,
+    "d": 300,
+    "h": 280
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "no-maxbo-shed",
+   "name": "Garden shed (bod) (Maxbo)",
+   "category": "exterior",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 250,
+    "d": 200,
+    "h": 240
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "no-maxbo-carport",
+   "name": "Carport (Maxbo)",
+   "category": "exterior",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 320,
+    "d": 560,
+    "h": 260
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "no-maxbo-firewood",
+   "name": "Firewood shelter (vedskjul) (Maxbo)",
+   "category": "exterior",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 200,
+    "d": 70,
+    "h": 180
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "no-maxbo-flagpole",
+   "name": "Flagpole 8 m with Norwegian flag (Maxbo)",
+   "category": "exterior",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 210,
+    "d": 40,
+    "h": 800
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "no-maxbo-ventilation",
+   "name": "Balanced ventilation unit with heat recovery (Maxbo)",
+   "category": "bathroom",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 60,
+    "d": 55,
+    "h": 90
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "no-byggmax-shed-small",
+   "name": "Tool shed (Byggmax)",
+   "category": "exterior",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 220,
+    "d": 180,
+    "h": 225
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "no-byggmax-shower-90",
+   "name": "Shower enclosure 90×90 (Byggmax)",
+   "category": "bathroom",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 90,
+    "d": 90,
+    "h": 200
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "no-byggmax-bathtub",
+   "name": "Bathtub 170 × 75 (Byggmax)",
+   "category": "bathroom",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 170,
+    "d": 75,
+    "h": 58
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "no-byggmax-toilet",
+   "name": "Wall-hung toilet (Byggmax)",
+   "category": "bathroom",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 36,
+    "d": 53,
+    "h": 40
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "no-byggmax-greenhouse",
+   "name": "Greenhouse (Byggmax)",
+   "category": "exterior",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 300,
+    "d": 200,
+    "h": 250
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "no-byggmax-compost",
+   "name": "Compost bin (Byggmax)",
+   "category": "landscape",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 100,
+    "d": 90,
+    "h": 90
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "no-obsbygg-trampoline",
+   "name": "Trampoline Ø 430 cm (Obs BYGG)",
+   "category": "exterior",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 430,
+    "d": 430,
+    "h": 270
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "no-obsbygg-hot-tub",
+   "name": "Hot tub (Obs BYGG)",
+   "category": "exterior",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 210,
+    "d": 210,
+    "h": 90
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "no-obsbygg-grill",
+   "name": "Charcoal kettle grill (Obs BYGG)",
+   "category": "exterior",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 65,
+    "d": 65,
+    "h": 100
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "no-obsbygg-gas-grill",
+   "name": "Gas grill (Obs BYGG)",
+   "category": "exterior",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 150,
+    "d": 65,
+    "h": 120
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "no-monter-garage-door",
+   "name": "Sectional garage door (Montér)",
+   "category": "doors",
+   "kind": "door",
+   "mount": "opening",
+   "dims": {
+    "w": 250,
+    "d": 12,
+    "h": 213
+   },
+   "elevation": 0,
+   "hasFront": false
+  },
+  {
+   "id": "no-monter-loft-stairs",
+   "name": "Loft ladder hatch (Montér)",
+   "category": "decor",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 70,
+    "d": 120,
+    "h": 280
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "no-monter-garage",
+   "name": "Detached garage (Montér)",
+   "category": "exterior",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 350,
+    "d": 650,
+    "h": 300
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "no-elkjop-heat-pump",
+   "name": "Air-to-air heat pump (indoor unit) (Elkjøp)",
+   "category": "living",
+   "kind": "item",
+   "mount": "wall",
+   "dims": {
+    "w": 80,
+    "d": 24,
+    "h": 29
+   },
+   "elevation": 200,
+   "hasFront": true
+  },
+  {
+   "id": "no-elkjop-heat-pump-outdoor",
+   "name": "Heat pump outdoor unit (Elkjøp)",
+   "category": "exterior",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 80,
+    "d": 30,
+    "h": 55
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "no-elkjop-fridge-freezer",
+   "name": "Fridge-freezer (Elkjøp)",
+   "category": "kitchen",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 60,
+    "d": 66,
+    "h": 186
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "no-elkjop-dishwasher",
+   "name": "Integrated dishwasher (Elkjøp)",
+   "category": "kitchen",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 60,
+    "d": 55,
+    "h": 82
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "no-elkjop-induction",
+   "name": "Induction hob with oven (Elkjøp)",
+   "category": "kitchen",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 60,
+    "d": 60,
+    "h": 88
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "no-elkjop-hood",
+   "name": "Cooker hood (Elkjøp)",
+   "category": "kitchen",
+   "kind": "item",
+   "mount": "wall",
+   "dims": {
+    "w": 60,
+    "d": 50,
+    "h": 40
+   },
+   "elevation": 150,
+   "hasFront": true
+  },
+  {
+   "id": "no-elkjop-tv-65",
+   "name": "TV 65″ (Elkjøp)",
+   "category": "living",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 145,
+    "d": 8,
+    "h": 84
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "no-power-washer",
+   "name": "Washing machine (POWER)",
+   "category": "bathroom",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 60,
+    "d": 60,
+    "h": 85
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "no-power-washer-dryer",
+   "name": "Washer & dryer stack (POWER)",
+   "category": "bathroom",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 60,
+    "d": 65,
+    "h": 175
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "no-power-microwave",
+   "name": "Microwave (POWER)",
+   "category": "kitchen",
+   "kind": "item",
+   "mount": "surface",
+   "dims": {
+    "w": 50,
+    "d": 38,
+    "h": 30
+   },
+   "elevation": 90,
+   "hasFront": true
+  },
+  {
+   "id": "no-power-water-heater",
+   "name": "Water heater 200 l (POWER)",
+   "category": "bathroom",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 60,
+    "d": 60,
+    "h": 150
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "no-jernia-mailbox",
+   "name": "Mailbox on post (Jernia)",
+   "category": "exterior",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 30,
+    "d": 55,
+    "h": 120
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "no-jernia-panel-heater",
+   "name": "Panel heater (Jernia)",
+   "category": "decor",
+   "kind": "item",
+   "mount": "wall",
+   "dims": {
+    "w": 100,
+    "d": 9,
+    "h": 40
+   },
+   "elevation": 15,
+   "hasFront": true
+  },
+  {
+   "id": "no-jernia-bike-rack",
+   "name": "Bike rack (Jernia)",
+   "category": "exterior",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 180,
+    "d": 50,
+    "h": 80
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "no-clasohlson-pendant",
+   "name": "Pendant lamp (Clas Ohlson)",
+   "category": "lighting",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 40,
+    "d": 40,
+    "h": 60
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "no-clasohlson-table-lamp",
+   "name": "Table lamp (Clas Ohlson)",
+   "category": "lighting",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 30,
+    "d": 30,
+    "h": 50
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "no-clasohlson-wall-lantern",
+   "name": "Outdoor wall lantern (Clas Ohlson)",
+   "category": "exterior",
+   "kind": "item",
+   "mount": "wall",
+   "dims": {
+    "w": 22,
+    "d": 25,
+    "h": 40
+   },
+   "elevation": 190,
+   "hasFront": true
+  },
+  {
+   "id": "no-plantasjen-birch",
+   "name": "Birch tree (Plantasjen)",
+   "category": "landscape",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 400,
+    "d": 400,
+    "h": 900
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "no-plantasjen-spruce",
+   "name": "Norway spruce (Plantasjen)",
+   "category": "landscape",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 350,
+    "d": 350,
+    "h": 1000
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "no-plantasjen-pine",
+   "name": "Scots pine (Plantasjen)",
+   "category": "landscape",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 500,
+    "d": 500,
+    "h": 1100
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "no-plantasjen-apple",
+   "name": "Apple tree (Plantasjen)",
+   "category": "landscape",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 400,
+    "d": 400,
+    "h": 450
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "no-plantasjen-lilac",
+   "name": "Lilac (Plantasjen)",
+   "category": "landscape",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 180,
+    "d": 180,
+    "h": 250
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "no-plantasjen-thuja",
+   "name": "Thuja hedge plant (Plantasjen)",
+   "category": "landscape",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 80,
+    "d": 80,
+    "h": 200
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "no-plantasjen-rhododendron",
+   "name": "Rhododendron (Plantasjen)",
+   "category": "landscape",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 110,
+    "d": 110,
+    "h": 80
+   },
+   "elevation": 0,
+   "hasFront": true
+  },
+  {
+   "id": "no-plantasjen-raised-bed",
+   "name": "Raised bed (pallet collar) (Plantasjen)",
+   "category": "landscape",
+   "kind": "item",
+   "mount": "floor",
+   "dims": {
+    "w": 120,
+    "d": 80,
+    "h": 40
+   },
+   "elevation": 0,
+   "hasFront": true
+  }
+ ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "riva-sai",
+  "version": "1.0.0",
+  "description": "Design homes, interiors and gardens with Riva Sai, the free 2D/3D home planner at rivasai.com. Claude asks about the space, lays out rooms, doors, windows and furniture, checks the plan, and hands back a link that opens the design in 2D and 3D.",
+  "author": {
+    "name": "Riva Sai",
+    "url": "https://rivasai.com"
+  },
+  "homepage": "https://rivasai.com",
+  "repository": "https://github.com/samsam32118/rivasai-plugin",
+  "license": "MIT",
+  "keywords": [
+    "home-design",
+    "interior-design",
+    "floor-plan",
+    "furniture-layout",
+    "3d",
+    "garden",
+    "renovation",
+    "architecture"
+  ],
+  "icon": "./logo.png",
+  "documentationUrl": "https://github.com/samsam32118/rivasai-plugin/blob/main/plugins/riva-sai/README.md",
+  "supportUrl": "https://github.com/samsam32118/rivasai-plugin/issues",
+  "privacyPolicyUrl": "https://github.com/samsam32118/rivasai-plugin/blob/main/plugins/riva-sai/PRIVACY.md",
+  "network": {
+    "hosts": []
+  }
+}

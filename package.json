@@ -1,0 +1,11 @@
+{
+  "name": "rivasai-plugin",
+  "private": true,
+  "description": "Riva Sai plugin for Claude: tests and checks (the plugin itself is plugins/riva-sai and has no dependencies).",
+  "license": "MIT",
+  "type": "module",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "test": "node --test tests/plugin.test.mjs"
+  }
+}

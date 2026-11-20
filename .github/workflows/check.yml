@@ -1,0 +1,24 @@
+name: Check
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Tests
+        run: npm test
+      - name: Validate the plugin and the marketplace
+        run: |
+          npm install --global @anthropic-ai/claude-code@2.1.329
+          claude plugin validate --strict ./plugins/riva-sai
+          claude plugin validate --strict .
