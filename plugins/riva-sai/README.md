@@ -9,24 +9,20 @@ gives you a link that opens the design at rivasai.com in 2D and 3D, ready to wal
 
 ## What you get
 
-- **Skill `riva-sai-home-design`.** Claude's workflow for planning a home with you: it asks one or two
-  questions at a time, assumes typical sizes instead of demanding measurements, follows the layout
-  rules (walkways, clearances, which way furniture faces), and keeps building on your latest version
-  when you change things in the app.
+- **Skill `riva-sai-home-design`.** Claude's workflow for planning a home with you. It asks one or
+  two questions at a time, assumes typical sizes instead of demanding measurements, and follows the
+  layout rules (walkways, clearances, which way furniture faces). It keeps building on your latest
+  version when you change things in the app. The full Riva Sai guide and catalog come with it.
 - **Commands.**
   - `/riva-sai:design-home [brief]` starts a design.
-  - `/riva-sai:check-plan [script or link]` checks and repairs a plan script.
-- **MCP server `riva-sai`.** Local, plain Node.js, with no dependencies and no network access. Every
-  tool is read-only:
+  - `/riva-sai:check-plan [script, link or error]` checks and repairs a plan script.
 
-  | Tool | What it does |
-  |---|---|
-  | `riva_guide` | The design guide: conventions, plan-script format, methods, catalog |
-  | `riva_search_catalog` | Searches 470+ furniture, fixture, door, window, plant and exterior items, with real sizes |
-  | `riva_list_options` | Categories, floor and wall materials, furniture finishes, starter templates |
-  | `riva_check_plan` | Checks a plan script: format, calls and options, catalog ids, materials, facing, references, and layout (overlaps, furniture through walls, doors off walls or in corners). Returns the link when the script is valid |
-  | `riva_plan_link` | Makes the rivasai.com link for a valid plan script |
-  | `riva_read_design` | Reads a Riva Sai share link (`#p=` / `#plan=`) or project JSON you bring back |
+Works in Claude Code, Cowork and claude.ai. The plugin contains instructions and reference text
+only: no programs, no network access, no data collection.
+
+**Optional, Claude Code only:** the `riva-sai-tools` plugin from the same marketplace adds a local
+MCP server (plain Node.js 18+, read-only) that checks plan scripts for Claude, searches the catalog,
+and makes and reads Riva Sai links. Install it with `claude plugin install riva-sai-tools@rivasai`.
 
 ## Install
 
@@ -41,7 +37,7 @@ claude plugin install riva-sai@rivasai
 ```
 
 Or inside a session: `/plugin marketplace add samsam32118/rivasai-plugin`, then
-`/plugin install riva-sai@rivasai`. Requires Node.js 18 or later (the MCP server runs with `node`).
+`/plugin install riva-sai@rivasai`.
 
 ## Try it
 
@@ -58,21 +54,14 @@ Claude to keep working on the same design.
 
 ## Privacy
 
-The plugin collects nothing. The MCP server sends nothing over the network and writes no files.
-Designs travel inside the link, after the `#`, which browsers never send to the server. See
+The plugin collects nothing and runs no programs. Designs travel inside the link, after the `#`, which browsers never send to the server. See
 [PRIVACY.md](PRIVACY.md).
 
 ## For developers
 
 Source: [github.com/samsam32118/rivasai-plugin](https://github.com/samsam32118/rivasai-plugin).
-
-- `server/riva-sai-mcp.mjs` is hand-written, readable JavaScript.
-- `server/data/*.json` and `skills/riva-sai-home-design/references/*.md` are generated from the
-  Riva Sai app source (`npm run claude-plugin -- --out <this repository>` in the app repository).
-  The app's tests fail when they are out of date and check that this plugin's plan checker agrees
-  with the real Riva Sai engine.
-- `npm test` at the repository root runs this repository's own tests (Node's built-in test runner,
-  no dependencies).
+`skills/riva-sai-home-design/references/*.md` are generated from the Riva Sai app source. The rest is
+hand-written.
 
 Support: [GitHub issues](https://github.com/samsam32118/rivasai-plugin/issues).
 

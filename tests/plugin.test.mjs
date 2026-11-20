@@ -10,7 +10,8 @@ import { deflateRawSync } from 'node:zlib';
 
 const ROOT = fileURLToPath(new URL('../', import.meta.url));
 const PLUGIN = path.join(ROOT, 'plugins/riva-sai');
-const SERVER = path.join(PLUGIN, 'server/riva-sai-mcp.mjs');
+const TOOLS = path.join(ROOT, 'plugins/riva-sai-tools');
+const SERVER = path.join(TOOLS, 'server/riva-sai-mcp.mjs');
 const lite = await import(pathToFileURL(SERVER).href);
 const readJson = (p) => JSON.parse(readFileSync(p, 'utf8'));
 
@@ -32,36 +33,36 @@ const EXAMPLE = plan(
   { name: 'Our flat' },
 );
 
-describe('packaging (plugin directory checklist)', () => {
+const filesIn = (root) => {
   const files = [];
   const walk = (dir) => {
     for (const name of readdirSync(dir)) {
       const p = path.join(dir, name);
       if (statSync(p).isDirectory()) walk(p);
-      else files.push(path.relative(PLUGIN, p).split(path.sep).join('/'));
+      else files.push(path.relative(root, p).split(path.sep).join('/'));
     }
   };
-  walk(PLUGIN);
+  walk(root);
+  return files;
+};
 
-  it('keeps files small, of allowed types, with safe names and no lockfile', () => {
+describe('riva-sai packaging (plugin directory checklist, unverified organization)', () => {
+  const files = filesIn(PLUGIN);
+
+  it('ships only instructions, reference text and images: no programs, MCP servers or hooks', () => {
     assert.ok(files.length < 512);
     for (const f of files) {
-      assert.match(f, /\.(md|json|mjs|png)$|^LICENSE$/, f);
+      assert.match(f, /\.(md|json|png)$|^LICENSE$/, f);
       assert.match(f, /^[\w./-]+$/, f);
-      assert.doesNotMatch(path.basename(f), /lock/i, f);
       if (!f.endsWith('.png')) assert.ok(statSync(path.join(PLUGIN, f)).size < 256 * 1024, `${f} is 256 KiB or more`);
     }
+    assert.deepEqual(files.filter((f) => f.endsWith('.json')), ['.claude-plugin/plugin.json']);
   });
 
-  it('has readable (not minified) code', () => {
-    for (const f of files.filter((x) => x.endsWith('.mjs'))) {
-      const longest = Math.max(...readFileSync(path.join(PLUGIN, f), 'utf8').split('\n').map((l) => l.length));
-      assert.ok(longest <= 140, `${f}: a line of ${longest} characters`);
-    }
-  });
-
-  it('has a valid manifest, MCP config, README, license and marketplace entry', () => {
+  it('has a manifest with only known and listing fields, a README and a license', () => {
     const manifest = readJson(path.join(PLUGIN, '.claude-plugin/plugin.json'));
+    const allowed = ['name', 'version', 'description', 'author', 'homepage', 'repository', 'license', 'keywords', 'icon', 'documentationUrl', 'supportUrl', 'privacyPolicyUrl', 'termsOfServiceUrl'];
+    assert.deepEqual(Object.keys(manifest).filter((k) => !allowed.includes(k)), []);
     assert.match(manifest.name, /^[a-z0-9]+(-[a-z0-9]+)*$/);
     assert.doesNotMatch(manifest.name, /claude|anthropic/);
     assert.match(manifest.version, /^\d+\.\d+\.\d+$/);
@@ -69,27 +70,55 @@ describe('packaging (plugin directory checklist)', () => {
     assert.deepEqual(readdirSync(path.join(PLUGIN, '.claude-plugin')), ['plugin.json']);
     for (const k of ['homepage', 'documentationUrl', 'supportUrl', 'privacyPolicyUrl']) assert.match(manifest[k], /^https:\/\//, k);
     assert.ok(statSync(path.join(PLUGIN, manifest.icon)).isFile());
-    const mcp = readJson(path.join(PLUGIN, '.mcp.json'));
-    assert.deepEqual(mcp.mcpServers['riva-sai'], { command: 'node', args: ['${CLAUDE_PLUGIN_ROOT}/server/riva-sai-mcp.mjs'] });
-    const market = readJson(path.join(ROOT, '.claude-plugin/marketplace.json'));
-    assert.equal(market.plugins.length, 1);
-    assert.equal(market.plugins[0].name, manifest.name);
-    assert.equal(market.plugins[0].source, './plugins/riva-sai');
     const readme = readFileSync(path.join(PLUGIN, 'README.md'), 'utf8').replace(/```[\s\S]*?```/g, '');
     assert.ok(readme.split(/\s+/).length > 40);
     assert.ok(statSync(path.join(PLUGIN, 'LICENSE')).isFile());
   });
 
-  it('keeps the skill within the authoring limits', () => {
+  it('keeps frontmatter values quoted where YAML would misread them, and the skill within limits', () => {
+    for (const f of files.filter((x) => x.endsWith('.md') && (x.startsWith('commands/') || x.endsWith('SKILL.md')))) {
+      const front = /^---\n([\s\S]*?)\n---\n/.exec(readFileSync(path.join(PLUGIN, f), 'utf8'))[1];
+      for (const line of front.split('\n')) {
+        const value = line.slice(line.indexOf(':') + 1).trim();
+        if (!value.startsWith('"')) assert.doesNotMatch(value, /\s#|^[[{>|*&!%@`]|: /, `${f}: quote ${line}`);
+      }
+    }
     const dir = path.join(PLUGIN, 'skills/riva-sai-home-design');
     const skill = readFileSync(path.join(dir, 'SKILL.md'), 'utf8');
     const front = /^---\n([\s\S]*?)\n---\n/.exec(skill)[1];
-    const name = /^name: (.*)$/m.exec(front)[1];
-    const description = /^description: (.*)$/m.exec(front)[1];
-    assert.equal(name, 'riva-sai-home-design');
-    assert.ok(description.length <= 1024);
+    assert.equal(/^name: (.*)$/m.exec(front)[1], 'riva-sai-home-design');
+    assert.ok(JSON.parse(/^description: (.*)$/m.exec(front)[1]).length <= 1024);
     assert.ok(skill.split('\n').length < 500);
     for (const [, link] of skill.matchAll(/\]\((references\/[^)]+)\)/g)) assert.ok(statSync(path.join(dir, link)).isFile(), link);
+  });
+});
+
+describe('riva-sai-tools packaging and marketplace', () => {
+  it('has readable code, an MCP config, and the same guides as the skill', () => {
+    const files = filesIn(TOOLS);
+    for (const f of files.filter((x) => x.endsWith('.mjs'))) {
+      const longest = Math.max(...readFileSync(path.join(TOOLS, f), 'utf8').split('\n').map((l) => l.length));
+      assert.ok(longest <= 140, `${f}: a line of ${longest} characters`);
+    }
+    for (const f of files) if (!f.endsWith('.png')) assert.ok(statSync(path.join(TOOLS, f)).size < 256 * 1024, f);
+    const mcp = readJson(path.join(TOOLS, '.mcp.json'));
+    assert.deepEqual(mcp.mcpServers['riva-sai'], { command: 'node', args: ['${CLAUDE_PLUGIN_ROOT}/server/riva-sai-mcp.mjs'] });
+    for (const name of ['agent.md', 'agent-advanced.md']) {
+      assert.equal(
+        readFileSync(path.join(TOOLS, 'server/data', name), 'utf8'),
+        readFileSync(path.join(PLUGIN, 'skills/riva-sai-home-design/references', name), 'utf8'),
+        name,
+      );
+    }
+  });
+
+  it('lists both plugins in the marketplace', () => {
+    const market = readJson(path.join(ROOT, '.claude-plugin/marketplace.json'));
+    assert.deepEqual(
+      market.plugins.map((p) => [p.name, p.source]),
+      [['riva-sai', './plugins/riva-sai'], ['riva-sai-tools', './plugins/riva-sai-tools']],
+    );
+    for (const p of market.plugins) assert.equal(readJson(path.join(ROOT, p.source, '.claude-plugin/plugin.json')).name, p.name);
   });
 });
 

@@ -2,11 +2,12 @@
 
 Last updated: 20 November 2026
 
-The Riva Sai plugin (skill, commands and the `riva-sai` MCP server) runs entirely on your computer.
+The Riva Sai plugin is a skill, two commands and reference text. It contains no programs.
 
-- **No data collection.** The MCP server makes no network requests and sends nothing to Riva Sai or
-  to anyone else. It reads only the data files that ship with the plugin (the catalog, the API method
-  list and the design guides) and writes no files.
+- **No data collection.** The plugin sends nothing to Riva Sai or to anyone else.
+- **Optional local tools.** The separate `riva-sai-tools` plugin runs a small local MCP server. It
+  makes no network requests, reads only its own data files (the catalog, the API method list and the
+  design guides) and writes no files.
 - **Designs stay in the link.** A Riva Sai link carries the design after the `#` of the URL (the
   fragment). Browsers do not send the fragment to the web server, so opening a link does not upload
   your design. The Riva Sai web app keeps your designs in your browser's local storage only.

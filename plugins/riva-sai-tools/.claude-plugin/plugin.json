@@ -1,0 +1,18 @@
+{
+  "name": "riva-sai-tools",
+  "version": "1.0.0",
+  "description": "Local tools for the Riva Sai plugin in Claude Code: checks Riva Sai plan scripts (calls, catalog ids, materials, overlaps, furniture through walls, doors in corners), searches the catalog and makes and reads rivasai.com links. Plain Node.js, no dependencies, no network access.",
+  "author": {
+    "name": "Riva Sai",
+    "url": "https://rivasai.com"
+  },
+  "homepage": "https://rivasai.com",
+  "repository": "https://github.com/samsam32118/rivasai-plugin",
+  "license": "MIT",
+  "keywords": [
+    "home-design",
+    "floor-plan",
+    "mcp",
+    "riva-sai"
+  ]
+}

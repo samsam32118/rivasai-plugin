@@ -11,7 +11,14 @@
     {
       "name": "riva-sai",
       "source": "./plugins/riva-sai",
-      "description": "Design homes, interiors and gardens with Riva Sai: Claude lays out rooms, doors, windows and furniture, checks the plan, and hands back a link that opens it in 2D and 3D.",
+      "description": "Design homes, interiors and gardens with Riva Sai: Claude lays out rooms, doors, windows and furniture and hands back a link that opens it in 2D and 3D.",
+      "category": "design",
+      "homepage": "https://rivasai.com"
+    },
+    {
+      "name": "riva-sai-tools",
+      "source": "./plugins/riva-sai-tools",
+      "description": "Optional local tools for riva-sai in Claude Code: a plan-script checker, catalog search and link maker (Node.js 18+).",
       "category": "design",
       "homepage": "https://rivasai.com"
     }

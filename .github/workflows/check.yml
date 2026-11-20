@@ -20,5 +20,6 @@ jobs:
       - name: Validate the plugin and the marketplace
         run: |
           npm install --global @anthropic-ai/claude-code@2.1.329
-          claude plugin validate --strict ./plugins/riva-sai
+          claude plugin validate --strict --profile directory ./plugins/riva-sai
+          claude plugin validate --strict ./plugins/riva-sai-tools
           claude plugin validate --strict .

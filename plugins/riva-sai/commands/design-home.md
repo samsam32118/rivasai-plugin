@@ -9,4 +9,4 @@ $ARGUMENTS
 
 If nothing is described above, start by asking what they want to plan. Follow the skill's workflow:
 ask one or two short questions at a time, assume typical sizes when measurements are unknown, check
-the plan script with `riva_check_plan` until it has no errors or warnings, and hand back the link.
+the plan script before sending it, and hand back the link.

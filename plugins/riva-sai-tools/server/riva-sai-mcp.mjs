@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Riva Sai MCP server for the Riva Sai Claude plugin.
+ * Riva Sai MCP server: the riva-sai-tools plugin, the optional local tools for the riva-sai plugin.
  *
  * Riva Sai (https://rivasai.com) is a free 2D/3D home, interior and garden planner in the browser.
  * An assistant designs a home as a *plan script* (a JSON list of Riva Sai API calls) and hands it
@@ -507,7 +507,7 @@ const DESIGN = {
 };
 const guideFile = (part) => {
   const file = part === 'advanced' ? 'agent-advanced.md' : 'agent.md';
-  return readData(`../skills/riva-sai-home-design/references/${file}`);
+  return readData(`./data/${file}`);
 };
 
 const TOOLS = [
